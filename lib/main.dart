@@ -18,7 +18,7 @@ class SignUpScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200],
+      backgroundColor: Colors.blue[200],
       body: Center(
         child: SizedBox(
           width: 400,
@@ -36,7 +36,7 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Welcome!', style: Theme.of(context).textTheme.display3),
+        child: Text('hoşgeldin burası ikinci sayfa!', style: Theme.of(context).textTheme.display3),
       ),
     );
   }
@@ -90,28 +90,28 @@ class _SignUpFormState extends State<SignUpForm> {
             padding: EdgeInsets.all(8.0),
             child: TextFormField(
               controller: _firstNameTextController,
-              decoration: InputDecoration(hintText: 'First name'),
+              decoration: InputDecoration(hintText: 'Kullanıcı Adı'),
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
             child: TextFormField(
               controller: _lastNameTextController,
-              decoration: InputDecoration(hintText: 'Last name'),
+              decoration: InputDecoration(hintText: 'Şifre'),
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
             child: TextFormField(
               controller: _usernameTextController,
-              decoration: InputDecoration(hintText: 'Username'),
+              decoration: InputDecoration(hintText: 'Kod'),
             ),
           ),
           FlatButton(
             color: Colors.blue,
             textColor: Colors.white,
             onPressed: _formProgress == 1 ? _showWelcomeScreen : null,
-            child: Text('Sign up basasdasdasdro'),
+            child: Text('Sign up basasdaasdasdasdro'),
           ),
         ],
       ),
