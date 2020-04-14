@@ -111,7 +111,7 @@ class _SignUpFormState extends State<SignUpForm> {
             color: Colors.blue,
             textColor: Colors.white,
             onPressed: _formProgress == 1 ? _showWelcomeScreen : null,
-            child: Text('Sign up basdasdro'),
+            child: Text('Sign up basasdasdasdro'),
           ),
         ],
       ),
